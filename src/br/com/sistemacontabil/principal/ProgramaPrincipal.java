@@ -102,7 +102,7 @@ public class ProgramaPrincipal {
     private static void carregarEmpresasIniciais() {
         empresas.add(new EmpresaSimplesNacional(
                 "12.345.678/0001-90", "Comércio Rápido Ltda", "Rápido Store",
-                "São Paulo", "SP", "Comércio varejista de artigos diversos",
+                "Itabuna", "BA", "Comércio varejista de artigos diversos",
                 new BigDecimal("3600000.00"), new BigDecimal("300000.00"),
                 new BigDecimal("7.30"), LocalDate.of(2018, 3, 15), 12));
 
@@ -110,8 +110,8 @@ public class ProgramaPrincipal {
         mei.setCnpj("98.765.432/0001-10");
         mei.setRazaoSocial("Maria Luisa Design MEI");
         mei.setNomeFantasia("MS Design");
-        mei.setMunicipio("Belo Horizonte");
-        mei.setEstado("MG");
+        mei.setMunicipio("Ilheus");
+        mei.setEstado("BA");
         mei.setOcupacaoPrincipal("Designer gráfico independente");
         mei.setFaturamentoAnual(new BigDecimal("72000.00"));
         mei.setFaturamentoMensal(new BigDecimal("6000.00"));
@@ -122,7 +122,7 @@ public class ProgramaPrincipal {
 
         empresas.add(new EmpresaLucroPresumido(
                 "11.222.333/0001-44", "Distribuidora Central Ltda", "Central Dist",
-                "Curitiba", "PR", "Comércio atacadista de produtos alimentícios",
+                "Feira de Santana", "BA", "Comércio atacadista de produtos alimentícios",
                 new BigDecimal("2000000.00"), new BigDecimal("500000.00"),
                 new BigDecimal("8.00"), new BigDecimal("15.00"), new BigDecimal("9.00"),
                 new BigDecimal("3250.00"), new BigDecimal("15000.00"),
@@ -132,8 +132,8 @@ public class ProgramaPrincipal {
         lucroReal.setCnpj("55.666.777/0001-88");
         lucroReal.setRazaoSocial("Indústria Tecnológica S.A.");
         lucroReal.setNomeFantasia("TechInd");
-        lucroReal.setMunicipio("Campinas");
-        lucroReal.setEstado("SP");
+        lucroReal.setMunicipio("Jequié");
+        lucroReal.setEstado("BA");
         lucroReal.setAtividadePrincipal("Desenvolvimento de software e consultoria");
         lucroReal.setReceitaBrutaAnual(new BigDecimal("12000000.00"));
         lucroReal.setDespesasDedutiveis(new BigDecimal("200000.00"));
@@ -158,7 +158,7 @@ public class ProgramaPrincipal {
 
         empresas.add(new EmpresaLucroReal(
                 "77.888.999/0001-33", "Vetta HUB Startup Inovação Ltda", "InovaStart",
-                "Florianópolis", "SC", "Pesquisa e desenvolvimento tecnológico",
+                "Salvador", "BA", "Pesquisa e desenvolvimento tecnológico",
                 new BigDecimal("1500000.00"), new BigDecimal("300000.00"),
                 new BigDecimal("-150000.00"), null, new BigDecimal("80000.00"),
                 new BigDecimal("15.00"), new BigDecimal("9.00"),
@@ -168,8 +168,8 @@ public class ProgramaPrincipal {
         presumidoServicos.setCnpj("22.333.444/0001-66");
         presumidoServicos.setRazaoSocial("Consultoria Alpha Ltda");
         presumidoServicos.setNomeFantasia("Alpha Consulting");
-        presumidoServicos.setMunicipio("Porto Alegre");
-        presumidoServicos.setEstado("RS");
+        presumidoServicos.setMunicipio("Salvador");
+        presumidoServicos.setEstado("BA");
         presumidoServicos.setAtividadePrincipal("Consultoria empresarial");
         presumidoServicos.setReceitaBrutaAnual(new BigDecimal("960000.00"));
         presumidoServicos.setReceitaBrutaTrimestral(new BigDecimal("240000.00"));
